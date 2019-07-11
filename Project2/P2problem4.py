@@ -1,6 +1,5 @@
 #problem4 MinHeap
 import sys
-#make it out of lists eh?
 class min_heap():
 
     def __init__(self):
@@ -14,9 +13,6 @@ class min_heap():
             return False
     #this min heapify is an amalgum of the max-heapify found in the book and a thread from stack overflow
     #https://stackoverflow.com/questions/34964717/building-min-heap-in-python
-    # i also advised my classmates Daniel Loyd and Mariah Mcrae VERY strongly on this
-    # i expect our solutions to be very similar, we collaborated very hard
-    # on this one.
     def min_heapify(self):
         j = 0
         for i in range(len(self.heap)):
